@@ -1,0 +1,110 @@
+=========================================
+  BILLING SYSTEM - QUICK SETUP GUIDE
+=========================================
+
+📦 STEP 1: INSTALL NODE.JS
+--------------------------
+1. Go to https://nodejs.org/
+2. Download the LTS version
+3. Install it (just keep clicking Next)
+4. Restart your computer
+
+To verify installation, open Command Prompt/Terminal and type:
+   node --version
+   npm --version
+
+You should see version numbers.
+
+
+📂 STEP 2: EXTRACT PROJECT
+--------------------------
+Extract the "billing-system" folder to your Desktop or any location you prefer.
+
+
+💻 STEP 3: OPEN TERMINAL IN PROJECT FOLDER
+-----------------------------------------
+
+WINDOWS:
+1. Open the "billing-system" folder
+2. Hold Shift + Right Click inside the folder
+3. Select "Open PowerShell window here" or "Open Command window here"
+
+MAC/LINUX:
+1. Open Terminal
+2. Type: cd /path/to/billing-system
+   (Drag the folder into terminal to get the path)
+
+
+⚙️ STEP 4: INSTALL DEPENDENCIES
+-------------------------------
+In the terminal, type:
+
+   npm install
+
+Press Enter and wait 1-2 minutes.
+
+
+🚀 STEP 5: START THE APPLICATION
+--------------------------------
+After installation completes, type:
+
+   npm run dev
+
+Press Enter and wait for the server to start.
+
+
+🌐 STEP 6: OPEN IN BROWSER
+--------------------------
+When you see "ready - started server on...", open your browser and go to:
+
+   http://localhost:3000
+
+
+🔐 STEP 7: LOGIN
+---------------
+Use these credentials:
+
+   Username: admin
+   Password: admin123
+
+
+✅ THAT'S IT! YOU'RE READY TO USE THE BILLING SYSTEM!
+
+
+=========================================
+         COMMON ISSUES & SOLUTIONS
+=========================================
+
+❌ "npm is not recognized"
+→ Node.js not installed properly. Reinstall Node.js and restart computer.
+
+❌ "Port 3000 already in use"
+→ Type: npx kill-port 3000
+   Then run: npm run dev
+
+❌ Installation errors
+→ Delete "node_modules" folder
+   Run: npm install again
+
+❌ Page not loading
+→ Make sure the terminal shows "ready - started server"
+→ Try http://localhost:3000 in a different browser
+
+
+=========================================
+         DAILY USAGE (AFTER SETUP)
+=========================================
+
+1. Open terminal in billing-system folder
+2. Run: npm run dev
+3. Open browser: http://localhost:3000
+4. Login and start creating invoices!
+
+To stop the server: Press Ctrl+C in terminal
+
+
+=========================================
+              NEED HELP?
+=========================================
+
+Check the full README.md file for detailed documentation.
